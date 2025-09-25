@@ -103,9 +103,13 @@ After all installations are complete, restart your Mac to ensure all changes tak
 2. Select "Restart..."
 3. Click the "Restart" button in the dialog that appears
 
-## Checking if c++ works
+## Checking if gcc and g++ works
 
-1. 
+1. Open Terminal
+2. Type `gcc --version` and press Enter to check if gcc is installed and working
+3. Type `g++ --version` and press Enter to check if g++ is installed and working
+
+output should show the version information for both gcc and g++.
 
 ## What's Included
 

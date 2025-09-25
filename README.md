@@ -111,6 +111,54 @@ After all installations are complete, restart your Mac to ensure all changes tak
 
 output should show the version information for both gcc and g++.
 
+## Setting Up VS Code for C and C++ Development
+
+After installing Visual Studio Code through the Brewfile, follow these steps to set it up for C and C++ development:
+
+1. Open Visual Studio Code
+
+2. Install the necessary extensions by pressing `Cmd+Shift+X` and searching for:
+   - "C/C++" by Microsoft
+   - "C/C++ Extension Pack" by Microsoft (includes debugger and other tools)
+   - "Code Runner" (optional, for quickly running code snippets)
+
+3. Create a project folder and open it in VS Code.
+
+4. Create a configuration file for C/C++ settings:
+   - Press `Cmd+Shift+P` to open the command palette
+   - Type "C/C++: Edit Configurations" and select it
+   - This creates a `.vscode` folder with a `c_cpp_properties.json` file
+   - The default settings should work with the GCC compiler installed via Homebrew
+
+5. Create a sample C++ file to test:
+   - Create a new file named `hello.cpp`
+   - Add this code:
+   ```cpp
+   #include <iostream>
+   
+   int main() {
+       std::cout << "Hello, World!" << std::endl;
+       return 0;
+   }
+   ```
+
+6. To compile and run from VS Code:
+   - Open the Terminal in VS Code with ``Ctrl+` ``
+   - Compile with: `g++ hello.cpp -o hello`
+   - Run with: `./hello`
+
+7. For debugging:
+   - Press `Cmd+Shift+P` and select "C/C++: Add Debug Configuration"
+   - Choose "C/C++: (GDB/LLDB) Launch"
+   - Set the program path to `${workspaceFolder}/hello`
+
+8. For more advanced projects, you can set up:
+   - `tasks.json` for build tasks
+   - `launch.json` for debugging configurations
+   - CMake integration for larger projects
+
+VS Code should now be configured for C and C++ development, using the GCC compiler you previously installed.
+
 ## What's Included
 
 This repository includes:

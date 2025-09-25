@@ -119,6 +119,8 @@ This repository includes:
 - `.zprofile`: Sets up Homebrew in your shell environment
 - `.zshrc`: Contains aliases, path configurations, and other shell customizations
 - `Brewfile`: List of applications, tools, and VS Code extensions to install
+- `README.md`: This file
+- `.gitignore`: File specifying untracked files to ignore in git
 
 ## Troubleshooting
 

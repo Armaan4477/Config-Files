@@ -141,8 +141,6 @@ cask "mkvtoolnix-app"
 cask "scroll-reverser"
 # System monitor for the menu bar
 cask "stats"
-# Turn your MacBook's trackpad into a precise digital weighing scale
-cask "trackweight"
 # Wine wrapper built with SwiftUI
 cask "whisky"
 # Open-source version of the X.Org X Window System

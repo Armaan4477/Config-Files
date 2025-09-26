@@ -107,10 +107,6 @@ brew "opencv"
 brew "openjdk@21"
 # Cross-platform library for audio I/O
 brew "portaudio"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
-# Python interface to Tcl/Tk
-brew "python-tk@3.10"
 # Python interface to Tcl/Tk
 brew "python-tk@3.13"
 # Cross-platform application and UI framework
@@ -127,14 +123,8 @@ cask "alt-tab"
 cask "android-platform-tools"
 # Control the platform power state of your Apple Silicon device
 cask "battery-toolkit"
-# Automated testing of webapps for Google Chrome
-cask "chromedriver"
-# Xcode extension for GitHub Copilot
-cask "github-copilot-for-xcode"
 # Xcode asset catalog creator
 cask "iconizer"
-# Open-source cross-platform alternative to AirDrop
-cask "localsend"
 # Set of tools to create, alter and inspect Matroska files (MKV)
 cask "mkvtoolnix-app"
 # Tool to reverse the direction of scrolling

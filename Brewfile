@@ -65,6 +65,8 @@ brew "flex"
 brew "fmt"
 # Infamous electronic fortune-cookie generator
 brew "fortune"
+# Generic library support script
+brew "libtool"
 # GitHub command-line tool
 brew "gh"
 # Interpreter for PostScript and PDF
@@ -77,14 +79,14 @@ brew "git"
 brew "python@3.13"
 # Quickly rewrite git repository history
 brew "git-filter-repo"
-# Generic library support script
-brew "libtool"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # GNU utilities for networking
 brew "inetutils"
 # Implementation of malloc emphasizing fragmentation avoidance
 brew "jemalloc"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
 # Next-gen compiler infrastructure
 brew "llvm"
 # Rainbows and unicorns in your console!
@@ -105,10 +107,18 @@ brew "nlohmann-json"
 brew "opencv"
 # Development kit for the Java programming language
 brew "openjdk@21"
+# General-purpose scripting language
+brew "php"
 # Cross-platform library for audio I/O
 brew "portaudio"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Python interface to Tcl/Tk
+brew "python-tk@3.10"
 # Python interface to Tcl/Tk
 brew "python-tk@3.13"
+# Python interface to Tcl/Tk
+brew "python-tk@3.14"
 # Cross-platform application and UI framework
 brew "qt@5"
 # Prints a steam locomotive if you type sl instead of ls
@@ -123,14 +133,22 @@ cask "alt-tab"
 cask "android-platform-tools"
 # Control the platform power state of your Apple Silicon device
 cask "battery-toolkit"
+# Automated testing of webapps for Google Chrome
+cask "chromedriver"
+# Xcode extension for GitHub Copilot
+cask "github-copilot-for-xcode"
 # Xcode asset catalog creator
 cask "iconizer"
+# Open-source cross-platform alternative to AirDrop
+cask "localsend"
 # Set of tools to create, alter and inspect Matroska files (MKV)
 cask "mkvtoolnix-app"
 # Tool to reverse the direction of scrolling
 cask "scroll-reverser"
 # System monitor for the menu bar
 cask "stats"
+# Turn your MacBook's trackpad into a precise digital weighing scale
+cask "trackweight"
 # Wine wrapper built with SwiftUI
 cask "whisky"
 # Open-source version of the X.Org X Window System

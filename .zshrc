@@ -17,3 +17,4 @@ alias update='brew update; brew upgrade; brew outdated --cask --greedy --verbose
 
 export PATH="/opt/homebrew/opt/python@3.13/bin:$PATH"
 
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
